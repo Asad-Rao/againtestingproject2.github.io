@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ</title>
+    <title>Contact us page</title>
     <link rel="stylesheet" href="stylessheetcss.css">
 </head>
+
 <body>
     <div class="pagewidth">
         <div class="navandsalediv">
@@ -23,7 +25,7 @@
                         </div>
 
                         <div class="navlogo">
-                            <a href="">
+                            <a href="homepage.html">
                                 <img src="images/homelogo.png" alt="" class="logoimage">
                             </a>
                         </div>
@@ -46,58 +48,35 @@
                 </div>
             </div>
         </div>
-        <section id="accordiansection">
+
+
+        <section id="contactussectionone">
             <div class="section3top">
+                <div class="backgroundcontactus">
 
+                    <h1>Contact Us</h1>
+                    <p>Have questions ? It's easy to call, or send your inquiry online and you'll get a prompt, accurate
+                        response</p>
 
-                <h1 class="headingaccordiansection">Got a few questions?</h1>
-
-                <div class="accordianwholecontainer">
-                    <div class="accordioncontainer">
-                        <button class="accordion">Where are your cleaners sold?</button>
-                        <div class="panel">
-                            <p class="accordiontext">Our cleaners are currently sold online at <a href=""
-                                    class="accordiontextanchorlink">www.amazon.com</a> and <a href=""
-                                    class="accordiontextanchorlink">Walmart.com</a> </p>
-                        </div>
+                    <div class="contactuscontainer">
+                        <form>
+                            <div class="top-inputs">
+                              <input type="text" id="name" name="name" class="input1" placeholder="Name">
+                              <input type="email" id="email" name="email" class="input1"placeholder="Your Phone">
+                            </div>
+                          
+                            <div class="bottom-inputs">
+                              <input type="text" id="subject" name="subject" placeholder="Your Email">
+                              <input type="tel" id="phone" name="phone" placeholder="Subject">
+                            </div>
+                            <textarea id="message" name="message"></textarea>
+                          
+                            <button type="submit">Submit</button>
+                          </form>
                     </div>
-                    <div class="accordioncontainer">
-                        <button class="accordion">Are your cleaners tested on animals?</button>
-                        <div class="panel">
-                            <p class="accordiontext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
-
-                    <div class="accordioncontainer">
-                        <button class="accordion">Are your products safe around kids? </button>
-                        <div class="panel">
-                            <p class="accordiontext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
-
-                    <div class="accordioncontainer">
-                        <button class="accordion">Can I recycle our aluminum bottles after we're finished with
-                            them?</button>
-                        <div class="panel">
-                            <p class="accordiontext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
-
                 </div>
-
             </div>
         </section>
-
-
 
         <section id="footersection">
             <div class="section3top">
@@ -153,7 +132,7 @@
 
 
                         <form action="homepage.html">
-                            <input class="inputplacehodertext" type="text" placeholder="Email">
+                            <input class="inputplacehodertext" type="footertext" placeholder="Email">
 
                             <button class="orangearrow">
                                 <span>
@@ -168,9 +147,13 @@
                 </div>
             </div>
         </section>
+
+
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <script src="slick.min.js"></script>
         <script type="text/javascript" src="accordian.js"></script>
     </div>
 </body>
+
 </html>
